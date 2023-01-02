@@ -9,6 +9,7 @@
         <module name="springboot_01_03_quickstart" />
         <module name="springboot_01_01_quickstart" />
         <module name="springboot_01_02_quickstart" />
+        <module name="springboot_02_base_configuration" />
         <module name="springboot_01_04_quickstart" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="springboot_01_02_quickstart" target="1.8" />
       <module name="springboot_01_03_quickstart" target="1.8" />
       <module name="springboot_01_04_quickstart" target="8" />
+      <module name="springboot_02_base_configuration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +27,7 @@
       <module name="springboot_01_02_quickstart" options="-parameters" />
       <module name="springboot_01_03_quickstart" options="-parameters" />
       <module name="springboot_01_04_quickstart" options="-parameters" />
+      <module name="springboot_02_base_configuration" options="-parameters" />
     </option>
   </component>
 </project>
