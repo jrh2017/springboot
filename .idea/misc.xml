@@ -4,10 +4,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot_01_01_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_01_02_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_01_03_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_01_04_quickstart/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
