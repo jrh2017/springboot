@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_01_04_quickstart/springboot_01_04_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_04_quickstart/springboot_01_04_quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" filepath="$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" filepath="$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_04_junit/springboot_04_junit.iml" filepath="$PROJECT_DIR$/springboot_04_junit/springboot_04_junit.iml" />
     </modules>
   </component>
 </project>
