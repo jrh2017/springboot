@@ -1,0 +1,70 @@
+country: china
+privince: jiangsu
+city: nanjiang
+area: zhonglingjie
+
+port: 80
+
+party: true
+
+birthday: 1987-05-31
+
+user:
+  name: jiang
+  age: 18
+
+user2:
+  name: jiang
+  age: 16
+
+
+
+a:
+  b:
+    c:
+      d:
+        e: 123
+
+likes:
+  - game
+  - music
+  - sleep
+
+likes2: [game,music,sleep]
+
+users:
+  - name: zhangsan
+    age: 16
+  - name: lisi
+    age: 17
+
+users3: [{name:zhangsan,age:18},{name:lisi,age:17}]
+
+users2:
+  -
+    name: zhangsan
+    age: 18
+  -
+    name: lisi
+    age: 17
+server:
+  port: 80
+  servlet:
+    context-path: /test123
+
+baseDir: /Users/jiangronghua
+
+# 使用${属性名}引用数据
+tempDir: ${baseDir}/workspace/code
+# 转义自负用""后就可以 /t 会变成制表符
+# tempDir: "${baseDir}/temp"
+
+# 创建类，用于封装下面到数据
+# 由spring帮我们去加载数据到对象中，一定要告诉spring加载这组信息
+# 使用时候从Spring中直接获取信息使用
+
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springboot_db
+  username: root
+  password: root666
