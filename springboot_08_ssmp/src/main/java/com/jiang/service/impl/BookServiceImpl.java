@@ -35,7 +35,7 @@ public class BookServiceImpl extends ServiceImpl<BookDao, Book> implements IBook
 
     @Override
     public IPage<Book> getPage(int currentPage, int pageSize) {
-        IPage page = new Page();
+        IPage page = new Page(currentPage, pageSize);
         bookDao.selectPage(page, null);
         return page;
     }
