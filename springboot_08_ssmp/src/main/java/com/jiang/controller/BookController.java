@@ -7,6 +7,7 @@ import com.jiang.service.IBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -24,8 +25,10 @@ public class BookController {
     }
 
     @PostMapping
-    public R save(@RequestBody Book book) {
-        return new R(bookService.saveBook(book));
+    public R save(@RequestBody Book book) throws IOException {
+        if(book.getName().equals("123")) throw new IOException();
+        boolean flag = bookService.saveBook(book);
+        return new R(flag, flag ? "添加成功^_^" : "添加失败^_^!");
     }
 
     @PutMapping
