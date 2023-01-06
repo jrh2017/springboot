@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_01_03_quickstart" />
         <module name="springboot_01_02_quickstart" />
+        <module name="springboot_09_config" />
         <module name="springboot_01_04_quickstart" />
         <module name="springboot_04_junit" />
         <module name="springboot_03_yaml" />
@@ -32,6 +33,7 @@
       <module name="springboot_06_mybatis_plus" target="8" />
       <module name="springboot_07_druid" target="8" />
       <module name="springboot_08_ssmp" target="1.8" />
+      <module name="springboot_09_config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -47,6 +49,7 @@
       <module name="springboot_06_mybatis_plus" options="-parameters" />
       <module name="springboot_07_druid" options="-parameters" />
       <module name="springboot_08_ssmp" options="-parameters" />
+      <module name="springboot_09_config" options="-parameters" />
     </option>
   </component>
 </project>
