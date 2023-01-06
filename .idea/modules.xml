@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_07_druid/springboot_07_druid.iml" filepath="$PROJECT_DIR$/springboot_07_druid/springboot_07_druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_08_ssmp/springboot_08_ssmp.iml" filepath="$PROJECT_DIR$/springboot_08_ssmp/springboot_08_ssmp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_09_config/springboot_09_config.iml" filepath="$PROJECT_DIR$/springboot_09_config/springboot_09_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_10_profiles/springboot_10_profiles.iml" filepath="$PROJECT_DIR$/springboot_10_profiles/springboot_10_profiles.iml" />
     </modules>
   </component>
 </project>
