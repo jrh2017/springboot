@@ -19,6 +19,7 @@
         <module name="springboot_10_profiles" />
         <module name="springboot_04_junit" />
         <module name="springboot_01_01_quickstart" />
+        <module name="springboot_13_configuration" />
         <module name="springboot_02_base_configuration" />
         <module name="springboot_11_log" />
         <module name="springboot_12_hot_deploy" />
@@ -40,6 +41,7 @@
       <module name="springboot_10_profiles" target="8" />
       <module name="springboot_11_log" target="8" />
       <module name="springboot_12_hot_deploy" target="8" />
+      <module name="springboot_13_configuration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -59,6 +61,7 @@
       <module name="springboot_10_profiles" options="-parameters" />
       <module name="springboot_11_log" options="-parameters" />
       <module name="springboot_12_hot_deploy" options="-parameters" />
+      <module name="springboot_13_configuration" options="-parameters" />
     </option>
   </component>
 </project>

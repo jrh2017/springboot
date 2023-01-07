@@ -1,0 +1,9 @@
+servers:
+  ipaddress: 192.168.0.1
+  port: 2345
+  timeout: -1
+  serverTimeout: 3
+  dataSize: 1024
+
+datasource:
+  driverClassName: com.mysql.jdbc.Driver

@@ -8,6 +8,11 @@ spring:
       url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
       username: root
       password: jw20120324
+  devtools:
+    restart:
+      # 设置不参与热部署的文件或文件夹
+      exclude: static/**,public/**,config/application.yml
+      enabled: false
 
 mybatis-plus:
   global-config:
@@ -17,3 +22,5 @@ mybatis-plus:
 
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
