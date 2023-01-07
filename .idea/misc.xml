@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/springboot_10_profile/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_10_profiles/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_11_log/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_12_hot_deploy/pom.xml" />
       </list>
     </option>
   </component>
