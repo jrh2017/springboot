@@ -1,7 +1,12 @@
 package com.jiang.dao;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.jiang.domain.Book;
+import org.apache.ibatis.annotations.Mapper;
+
 /**
  * @author jiangronghua
  */
-public interface BookDao {
+@Mapper
+public interface BookDao extends BaseMapper<Book> {
 }

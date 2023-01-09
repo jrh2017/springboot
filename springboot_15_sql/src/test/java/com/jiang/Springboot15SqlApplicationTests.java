@@ -16,8 +16,8 @@ import java.util.Map;
 @SpringBootTest
 class Springboot15SqlApplicationTests {
     
-    // @Autowired
-    // private BookDao bookDao;
+    @Autowired
+    private BookDao bookDao;
 
     @Test
     void contextLoads() {
@@ -25,7 +25,7 @@ class Springboot15SqlApplicationTests {
     
     @Test
     void test() {
-        // bookDao.selectById(1);
+        bookDao.selectById(1);
     }
 
     @Test
@@ -52,7 +52,7 @@ class Springboot15SqlApplicationTests {
 
     @Test
     void testJdbcTemplateSave(@Autowired JdbcTemplate jdbcTemplate) {
-        String sql = "insert into tbl_book values(null, 'springboot1', 'springboot2', 'springboot3')";
+        String sql = "insert into tbl_book values(1, 'springboot1', 'springboot2', 'springboot3')";
         jdbcTemplate.update(sql);
     }
 
