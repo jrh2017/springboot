@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_11_log/springboot_11_log.iml" filepath="$PROJECT_DIR$/springboot_11_log/springboot_11_log.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_12_hot_deploy/springboot_12_hot_deploy.iml" filepath="$PROJECT_DIR$/springboot_12_hot_deploy/springboot_12_hot_deploy.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_13_configuration/springboot_13_configuration.iml" filepath="$PROJECT_DIR$/springboot_13_configuration/springboot_13_configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_14_test/springboot_14_test.iml" filepath="$PROJECT_DIR$/springboot_14_test/springboot_14_test.iml" />
     </modules>
   </component>
 </project>
