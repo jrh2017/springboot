@@ -20,3 +20,10 @@ mybatis-plus:
 
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+testcase:
+  book:
+    id: ${random.int}
+    name: 黑马${random.value}
+    uuid: ${random.uuid}
+    publishTime: ${random.long}
