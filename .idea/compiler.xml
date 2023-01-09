@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_01_03_quickstart" />
+        <module name="springboot_15_sql" />
         <module name="springboot_09_config" />
         <module name="springboot_03_yaml" />
         <module name="springboot_05_mybatis" />
@@ -44,6 +45,7 @@
       <module name="springboot_12_hot_deploy" target="8" />
       <module name="springboot_13_configuration" target="1.8" />
       <module name="springboot_14_test" target="1.8" />
+      <module name="springboot_15_sql" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -65,6 +67,7 @@
       <module name="springboot_12_hot_deploy" options="-parameters" />
       <module name="springboot_13_configuration" options="-parameters" />
       <module name="springboot_14_test" options="-parameters" />
+      <module name="springboot_15_sql" options="-parameters" />
     </option>
   </component>
 </project>
