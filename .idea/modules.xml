@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_13_configuration/springboot_13_configuration.iml" filepath="$PROJECT_DIR$/springboot_13_configuration/springboot_13_configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_14_test/springboot_14_test.iml" filepath="$PROJECT_DIR$/springboot_14_test/springboot_14_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_15_sql/springboot_15_sql.iml" filepath="$PROJECT_DIR$/springboot_15_sql/springboot_15_sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_16_redis/springboot_16_redis.iml" filepath="$PROJECT_DIR$/springboot_16_redis/springboot_16_redis.iml" />
     </modules>
   </component>
 </project>
