@@ -19,5 +19,8 @@
     <file url="file://$PROJECT_DIR$/springboot_12_hot_deploy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_13_configuration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_14_test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_15_sql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_15_sql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_16_redis/src/main/java" charset="UTF-8" />
   </component>
 </project>
