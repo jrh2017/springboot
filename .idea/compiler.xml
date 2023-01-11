@@ -17,6 +17,7 @@
         <module name="springboot_14_test" />
         <module name="springboot_08_ssmp" />
         <module name="springboot_06_mybatis_plus" />
+        <module name="springboot_18_es" />
         <module name="springboot_01_02_quickstart" />
         <module name="springboot_01_04_quickstart" />
         <module name="springboot_10_profiles" />
@@ -50,6 +51,7 @@
       <module name="springboot_15_sql" target="8" />
       <module name="springboot_16_redis" target="1.8" />
       <module name="springboot_17_mongodb" target="1.8" />
+      <module name="springboot_18_es" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -74,6 +76,7 @@
       <module name="springboot_15_sql" options="-parameters" />
       <module name="springboot_16_redis" options="-parameters" />
       <module name="springboot_17_mongodb" options="-parameters" />
+      <module name="springboot_18_es" options="-parameters" />
     </option>
   </component>
 </project>
