@@ -2,14 +2,6 @@ server:
   port: 80
   max-http-header-size: 8000KB
 
-spring:
-  datasource:
-    druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
-      username: root
-      password: jw20120324
-
 mybatis-plus:
   global-config:
     db-config:
@@ -18,4 +10,29 @@ mybatis-plus:
 
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
+      username: root
+      password: jw20120324
+#ehcache
+#  cache:
+#    type: ehcache
+#    ehcache:
+#      config: classpath:ehcache.xml
+  cache:
+    type: redis
+    redis:
+#      use-key-prefix: false
+#      cache-null-values: false
+      key-prefix: sms_
+      time-to-live: 10s
+  redis:
+    host: localhost
+    port: 6379
+
+
 
