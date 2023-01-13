@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_17_mongodb/springboot_17_mongodb.iml" filepath="$PROJECT_DIR$/springboot_17_mongodb/springboot_17_mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_18_es/springboot_18_es.iml" filepath="$PROJECT_DIR$/springboot_18_es/springboot_18_es.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_19_cache/springboot_19_cache.iml" filepath="$PROJECT_DIR$/springboot_19_cache/springboot_19_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_20_jetcache/springboot_20_jetcache.iml" filepath="$PROJECT_DIR$/springboot_20_jetcache/springboot_20_jetcache.iml" />
     </modules>
   </component>
 </project>

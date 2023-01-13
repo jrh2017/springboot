@@ -18,21 +18,26 @@ spring:
       url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
       username: root
       password: jw20120324
-#ehcache
+memcached:
+  servers: localhost:11211
+  poolSize: 10
+  opTimeout: 3000
+#ehcache方式缓存
 #  cache:
 #    type: ehcache
 #    ehcache:
 #      config: classpath:ehcache.xml
-  cache:
-    type: redis
-    redis:
+#redis方式缓存
+#  cache:
+#    type: redis
+#    redis:
 #      use-key-prefix: false
 #      cache-null-values: false
-      key-prefix: sms_
-      time-to-live: 10s
-  redis:
-    host: localhost
-    port: 6379
+#      key-prefix: sms_
+#      time-to-live: 10s
+#  redis:
+#    host: localhost
+#    port: 6379
 
 
 
