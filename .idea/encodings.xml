@@ -25,5 +25,6 @@
     <file url="file://$PROJECT_DIR$/springboot_17_mongodb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_18_es/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_19_cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_20_jetcache/src/main/java" charset="UTF-8" />
   </component>
 </project>
