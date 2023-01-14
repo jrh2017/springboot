@@ -30,6 +30,7 @@
         <module name="springboot_02_base_configuration" />
         <module name="springboot_11_log" />
         <module name="springboot_12_hot_deploy" />
+        <module name="springboot_21_j2cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -56,6 +57,7 @@
       <module name="springboot_18_es" target="8" />
       <module name="springboot_19_cache" target="1.8" />
       <module name="springboot_20_jetcache" target="1.8" />
+      <module name="springboot_21_j2cache" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -83,6 +85,7 @@
       <module name="springboot_18_es" options="-parameters" />
       <module name="springboot_19_cache" options="-parameters" />
       <module name="springboot_20_jetcache" options="-parameters" />
+      <module name="springboot_21_j2cache" options="-parameters" />
     </option>
   </component>
 </project>
