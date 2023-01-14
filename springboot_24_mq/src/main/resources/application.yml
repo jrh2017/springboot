@@ -1,0 +1,14 @@
+server:
+  port: 80
+  max-http-header-size: 80KB
+
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+  jms:
+    template:
+      default-destination: itheima
+    pub-sub-domain: true
+  rabbitmq:
+    host: localhost
+    port: 5672
