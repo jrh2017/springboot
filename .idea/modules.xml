@@ -29,6 +29,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_22_task/springboot_22_task.iml" filepath="$PROJECT_DIR$/springboot_22_task/springboot_22_task.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_23_mail/springboot_23_mail.iml" filepath="$PROJECT_DIR$/springboot_23_mail/springboot_23_mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_24_mq/springboot_24_mq.iml" filepath="$PROJECT_DIR$/springboot_24_mq/springboot_24_mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_25_admin_server/springboot_25_admin_server.iml" filepath="$PROJECT_DIR$/springboot_25_admin_server/springboot_25_admin_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_26_admin_client/springboot_26_admin_client.iml" filepath="$PROJECT_DIR$/springboot_26_admin_client/springboot_26_admin_client.iml" />
     </modules>
   </component>
 </project>
