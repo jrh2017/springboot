@@ -27,6 +27,7 @@
         <module name="springboot_26_admin_client" />
         <module name="springboot_07_druid" />
         <module name="springboot_06_mybatis_plus" />
+        <module name="springboot_27_bean_init" />
         <module name="springboot_01_02_quickstart" />
         <module name="springboot_04_junit" />
         <module name="springboot_13_configuration" />
@@ -68,6 +69,7 @@
       <module name="springboot_24_mq" target="1.8" />
       <module name="springboot_25_admin_server" target="1.8" />
       <module name="springboot_26_admin_client" target="1.8" />
+      <module name="springboot_27_bean_init" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

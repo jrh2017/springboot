@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_24_mq/springboot_24_mq.iml" filepath="$PROJECT_DIR$/springboot_24_mq/springboot_24_mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_25_admin_server/springboot_25_admin_server.iml" filepath="$PROJECT_DIR$/springboot_25_admin_server/springboot_25_admin_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_26_admin_client/springboot_26_admin_client.iml" filepath="$PROJECT_DIR$/springboot_26_admin_client/springboot_26_admin_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_27_bean_init/springboot_27_bean_init.iml" filepath="$PROJECT_DIR$/springboot_27_bean_init/springboot_27_bean_init.iml" />
     </modules>
   </component>
 </project>
