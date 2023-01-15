@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author jiangronghua
  */
-@Configuration
+// @Configuration
 public class RabbitConfigTopic {
 
     @Bean

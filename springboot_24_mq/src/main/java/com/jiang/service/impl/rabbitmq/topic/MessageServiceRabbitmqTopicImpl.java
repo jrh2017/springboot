@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 /**
  * @author jiangronghua
  */
-@Service
+// @Service
 public class MessageServiceRabbitmqTopicImpl implements MessageService {
 
     @Resource

@@ -12,3 +12,11 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: order
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    group: group_rocketmq

@@ -1,13 +1,21 @@
 server:
-  port: 80
+  port: 8084
 
 spring:
+  application:
+    name: ssm
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/ssm_db?serverTimezone=UTC
       username: root
       password: jw20120324
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+        instance:
+          management-base-url: http://localhost:8084
 
 mybatis-plus:
   global-config:
@@ -17,3 +25,24 @@ mybatis-plus:
 
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+management:
+  info:
+    env:
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+    info:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    enabled-by-default: true
+info:
+  appName: @project.artifactId@
+  version: @project.version@
+  company: 汇通达网络股份有限公司
+  author: jiangronghua
+

@@ -24,6 +24,7 @@
         <module name="springboot_17_mongodb" />
         <module name="springboot_23_mail" />
         <module name="springboot_03_yaml" />
+        <module name="springboot_26_admin_client" />
         <module name="springboot_07_druid" />
         <module name="springboot_06_mybatis_plus" />
         <module name="springboot_01_02_quickstart" />
@@ -34,6 +35,7 @@
         <module name="springboot_11_log" />
         <module name="springboot_12_hot_deploy" />
         <module name="springboot_21_j2cache" />
+        <module name="springboot_25_admin_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -64,6 +66,8 @@
       <module name="springboot_22_task" target="1.8" />
       <module name="springboot_23_mail" target="1.8" />
       <module name="springboot_24_mq" target="1.8" />
+      <module name="springboot_25_admin_server" target="1.8" />
+      <module name="springboot_26_admin_client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -95,6 +99,8 @@
       <module name="springboot_22_task" options="-parameters" />
       <module name="springboot_23_mail" options="-parameters" />
       <module name="springboot_24_mq" options="-parameters" />
+      <module name="springboot_25_admin_server" options="-parameters" />
+      <module name="springboot_26_admin_client" options="-parameters" />
     </option>
   </component>
 </project>

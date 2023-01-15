@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * @author jiangronghua
  */
-@Component
+// @Component
 public class MessageListener {
     @RabbitListener(queues = "topic_queue")
     public void revice(String id) {
